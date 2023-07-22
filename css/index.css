@@ -1,0 +1,302 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/*exibiçao de imagens*/
+
+#instagramLogo{
+    margin-left: 80px;
+    margin-top: 35px;
+}
+
+.userInfo{
+    width: 250px;
+    padding: 10px;
+    font-size: 12px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    /*------------------------------------*/
+    background-color: rgb(247, 247, 247);
+    border: 1px solid rgb(206, 204, 204);
+}
+
+#buttonEnter{
+    width: 273px;
+    height: 35px;
+    border: 0pc;
+    border-radius: 10px;
+    /*------------------------------------*/
+    color: white;
+    background-color: #287cec;
+    font-weight: bold;
+}
+
+#ou{
+    margin-top: 15px;
+    margin-left: 125px;
+    /*------------------------------------*/
+    font-family: 'Alkatra', cursive;
+    font-family: 'Climate Crisis', cursive;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: gray;
+}
+
+#ou::before {
+    width: 100px;
+    /*------------------------------------*/
+    content: "";
+    position: absolute;
+    top: 43%;
+    left: 64%;
+    right: 0;
+    border-top: 1px solid rgb(196, 191, 191);
+  }
+
+#ou::after {
+    width: 100px;
+    /*------------------------------------*/
+    content: "";
+    position: absolute;
+    top: 43%;
+    left: 54%;
+    right: 0;
+    border-top: 1px solid rgb(196, 191, 191);
+  }
+
+.buttonLoginFace{
+    border: 0px;
+    background-color: aliceblue;
+    margin-right: 0px;
+}
+/*------------------------------------*/
+
+/*main*/
+.containerOtherMethod{
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 31%;
+    /*------------------------------------*/
+    font-family: 'Alkatra', cursive;
+    font-family: 'Climate Crisis', cursive;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.containerUserInteration{
+    justify-content: center;
+    align-items: center;
+    margin-top: 13px;
+    margin-left: 12%;
+}
+
+.containerUser{
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    margin-left: 12%;
+}
+
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -170px;
+}
+
+.content1{
+    height: 565px;
+    width: 380px;
+    margin: 15px;
+    /*--------------------------------*/
+    background-image: url("../imagens/imagem_2023-07-21_160405807-PhotoRoom.png-PhotoRoom-fotor-bg-remover-20230721164325.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content2{
+    height: 400px;
+    width: 350px;
+    margin: 15px;
+    /*--------------------------------*/
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 1px;
+}
+
+#cadastrar-se{
+    width: 350px;
+    height: 65px;
+    position: absolute;
+    top: 62%;
+    left: 991px;
+    transform: translate(-50%, -50%);
+    /*------------------------------*/
+    border: 1px solid rgb(204, 204, 204);
+    text-align: center;
+}
+
+#obterApk{
+    width: 350px;
+    height: 65px;
+    position: absolute;
+    top: 574px;
+    left: 991px;
+    transform: translate(-50%, -50%);
+    /*------------------------------*/
+    text-align: center;
+}
+
+#contenttxt{
+    margin-top: 22px;
+    text-align: center;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Climate Crisis', cursive;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+}
+
+#cada{
+    color: #2065be;
+    text-decoration: none;
+}
+
+#cada{
+    color: #2065be;
+}
+
+.imgObter{
+    margin-top: 16px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#recuperarSenha{
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Climate Crisis', cursive;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#recSenha{
+    margin-bottom: -30px;
+    color: #02387e;
+    text-decoration: none;
+}
+
+#recSenhaDiv{
+    margin-top: 25px;
+
+}
+
+#entrarFace{
+    color: #02387e;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#entrarFaceDiv{
+    margin-top: -10px;
+}
+
+#iconface{
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    top: 373px;
+    left: 910px;
+    transform: translateX(-50%);
+}
+
+.carrossel{
+    max-height: 502px;
+    width: 235px;
+    margin-left: 124px;
+    margin-top: 32px;
+    background-position: center;
+    animation: Apresentacion 2s normal;
+}
+
+#endFooter{
+    display: flex;
+    position: absolute;
+    top: 92%;
+    left: 831px;
+    transform: translate(-50%, -50%);
+}
+
+#sec{
+    margin-right: 25px;
+    border: 0px;
+    color: gray;
+}
+
+#sec1{
+    margin-right: 25px;
+    border: 0px;
+    color: gray;
+}
+/*------------------------------------------------------*/
+
+/*footer*/
+
+footer{
+    color: gray;
+    font-size: 12px;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Climate Crisis', cursive;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    /*------------------------------*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer:hover{
+
+}
+
+span{
+    margin-top: 60px;
+    margin-right: 6px;
+    margin-left: 6px;
+    /*-----------------*/
+    cursor: pointer;
+}
+
+a{
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+/*------------------------------------------------------*/
+/*Keyframes*/
+@keyframes Apresentacion {
+    from{
+        opacity: 20%;
+    } to {
+        opacity: 100%;
+    }
+}
+/*------------------------------------------------------*/
