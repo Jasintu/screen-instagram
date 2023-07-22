@@ -37,37 +37,27 @@
 }
 
 #ou{
+    position: absolute;
+    background-color: aliceblue;
     margin-top: 15px;
     margin-left: 110px;
+    height: 20px;
+    width: 60px;
+    z-index: 2;
     /*------------------------------------*/
     font-family: 'Alkatra', cursive;
     font-family: 'Climate Crisis', cursive;
     font-family: 'Noto Sans JP', sans-serif;
     font-family: 'Ubuntu', sans-serif;
     color: gray;
+    text-align: center;
 }
 
-#ou::before {
-    width: 100px;
-    /*------------------------------------*/
-    content: "";
-    position: absolute;
-    top: 43%;
-    left: 64%;
-    right: 0;
-    border-top: 1px solid rgb(196, 191, 191);
-  }
-
-#ou::after {
-    width: 100px;
-    /*------------------------------------*/
-    content: "";
-    position: absolute;
-    top: 43%;
-    left: 54%;
-    right: 0;
-    border-top: 1px solid rgb(196, 191, 191);
-  }
+.string{
+    width: 270px;
+    border: 1px solid rgb(206, 204, 204);
+    margin-top: 24px;
+}
 
 .buttonLoginFace{
     border: 0px;
@@ -90,6 +80,7 @@
 }
 
 .containerUserInteration{
+    position: relative;
     justify-content: center;
     align-items: center;
     margin-top: 13px;
@@ -114,13 +105,14 @@
     display: block;
     justify-content: center;
     align-items: center;
-    margin-top: -170px;
+    margin-top: 0px;
 }
 
 .content1{
     height: 565px;
     width: 380px;
     margin: 15px;
+    margin-left: 230px;
     /*--------------------------------*/
     background-image: url("../imagens/imagem_2023-07-21_160405807-PhotoRoom.png-PhotoRoom-fotor-bg-remover-20230721164325.png");
     background-repeat: no-repeat;
@@ -132,18 +124,19 @@
     height: 400px;
     width: 350px;
     margin: 15px;
+    margin-left: 20px;
     /*--------------------------------*/
-    border: 1px solid rgb(204, 204, 204);
+    border-top: 1px solid rgb(204, 204, 204);
+    border-left: 1px solid rgb(204, 204, 204);
+    border-right: 1px solid rgb(204, 204, 204);
+    border-bottom: 1px solid rgb(204, 204, 204);
     border-radius: 1px;
 }
 
 #cadastrar-se{
     width: 350px;
     height: 65px;
-    position: absolute;
-    top: 62%;
-    left: 991px;
-    transform: translate(-50%, -50%);
+    margin-left: 20px;
     /*------------------------------*/
     border: 1px solid rgb(204, 204, 204);
     text-align: center;
@@ -152,9 +145,8 @@
 #obterApk{
     width: 350px;
     height: 65px;
-    position: absolute;
-    top: 574px;
-    left: 991px;
+    margin-top: 50px;
+    margin-left: 195px;
     transform: translate(-50%, -50%);
     /*------------------------------*/
     text-align: center;
@@ -216,10 +208,10 @@
 #iconface{
     height: 18px;
     width: 18px;
+    margin-left: -25px;
+    margin-top: -4px;
     position: absolute;
-    top: 369px;
-    left: 917px;
-    transform: translateX(-50%);
+    
 }
 
 .carrossel{
@@ -231,21 +223,31 @@
     animation: Apresentacion 2s normal;
 }
 
+#endFooter1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
 #endFooter{
     display: flex;
-    position: absolute;
-    top: 92%;
-    left: 831px;
-    transform: translate(-50%, -50%);
+
+    margin-top: 20px;
+    font-size: 11px;
+    color: gray;
 }
 
 #sec{
     margin-right: 25px;
     border: 0px;
     color: gray;
+    font-size: 11px;
 }
 
 #sec1{
+    font-size: 11px;
     margin-right: 25px;
     border: 0px;
     color: gray;
@@ -264,7 +266,7 @@
 
 footer{
     color: gray;
-    font-size: 12px;
+    font-size: 11px;
     font-family: 'Alkatra', cursive;
     font-family: 'Climate Crisis', cursive;
     font-family: 'Noto Sans JP', sans-serif;
@@ -280,7 +282,7 @@ footer:hover{
 }
 
 span{
-    margin-top: 60px;
+    margin-top: 40px;
     margin-right: 6px;
     margin-left: 6px;
     /*-----------------*/
